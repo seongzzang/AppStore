@@ -14,6 +14,7 @@
 		69EDBD90290D5785006B9B47 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 69EDBD8F290D5785006B9B47 /* SnapKit */; };
 		69EDBD93290D5795006B9B47 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 69EDBD92290D5795006B9B47 /* Kingfisher */; };
 		69EDBD95290D58A2006B9B47 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EDBD94290D58A2006B9B47 /* TabBarViewController.swift */; };
+		69EDBD9A290D5F6B006B9B47 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EDBD99290D5F6B006B9B47 /* TodayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		69EDBD86290D574C006B9B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69EDBD88290D574C006B9B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69EDBD94290D58A2006B9B47 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		69EDBD99290D5F6B006B9B47 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		69EDBD98290D5F44006B9B47 /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				69EDBD99290D5F6B006B9B47 /* TodayViewController.swift */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69EDBD9A290D5F6B006B9B47 /* TodayViewController.swift in Sources */,
 				69EDBD95290D58A2006B9B47 /* TabBarViewController.swift in Sources */,
 				69EDBD7B290D5748006B9B47 /* AppDelegate.swift in Sources */,
 				69EDBD7D290D5748006B9B47 /* SceneDelegate.swift in Sources */,
