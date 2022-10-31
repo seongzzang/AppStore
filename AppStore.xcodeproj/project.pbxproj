@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		69C23788290FF2FA004A01C8 /* TodayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C23787290FF2FA004A01C8 /* TodayCollectionViewCell.swift */; };
+		69C2378C290FF799004A01C8 /* TodayCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C2378B290FF799004A01C8 /* TodayCollectionHeaderView.swift */; };
 		69EDBD7B290D5748006B9B47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EDBD7A290D5748006B9B47 /* AppDelegate.swift */; };
 		69EDBD7D290D5748006B9B47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EDBD7C290D5748006B9B47 /* SceneDelegate.swift */; };
 		69EDBD84290D574C006B9B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69EDBD83290D574C006B9B47 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		69C23787290FF2FA004A01C8 /* TodayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionViewCell.swift; sourceTree = "<group>"; };
+		69C2378B290FF799004A01C8 /* TodayCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionHeaderView.swift; sourceTree = "<group>"; };
 		69EDBD77290D5748006B9B47 /* AppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69EDBD7A290D5748006B9B47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69EDBD7C290D5748006B9B47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			children = (
 				69EDBD99290D5F6B006B9B47 /* TodayViewController.swift */,
 				69C23787290FF2FA004A01C8 /* TodayCollectionViewCell.swift */,
+				69C2378B290FF799004A01C8 /* TodayCollectionHeaderView.swift */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				69EDBD9A290D5F6B006B9B47 /* TodayViewController.swift in Sources */,
 				69EDBD95290D58A2006B9B47 /* TabBarViewController.swift in Sources */,
 				69EDBD7B290D5748006B9B47 /* AppDelegate.swift in Sources */,
+				69C2378C290FF799004A01C8 /* TodayCollectionHeaderView.swift in Sources */,
 				69EDBD7D290D5748006B9B47 /* SceneDelegate.swift in Sources */,
 				69C23788290FF2FA004A01C8 /* TodayCollectionViewCell.swift in Sources */,
 			);
