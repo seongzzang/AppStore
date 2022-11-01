@@ -20,7 +20,7 @@ final class FeatureSectionView: UIView {
         collectionView.backgroundColor = .systemBackground
         collectionView.showsHorizontalScrollIndicator = false
         
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "FeatureSectionCollectionViewCell")
+        collectionView.register(FeatureSectionCollectionViewCell.self, forCellWithReuseIdentifier: "FeatureSectionCollectionViewCell")
         
         return collectionView
     }()
@@ -42,8 +42,8 @@ extension FeatureSectionView: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FeatureSectionCollectionViewCell", for: indexPath)
-        cell.backgroundColor = .blue
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FeatureSectionCollectionViewCell", for: indexPath) as? FeatureSectionCollectionViewCell else {return UICollectionViewCell()}
+        cell.setup()
         
         return cell
     }
@@ -55,7 +55,7 @@ extension FeatureSectionView: UICollectionViewDelegateFlowLayout {
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        UIEdgeInsets(top: 0.0, left: 16.0, bottom: 0.0, right: 16.0)
+        UIEdgeInsets(top: 0.0, left: 16.0, bottom: 0.0, right: 16.0) //중앙정렬
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
