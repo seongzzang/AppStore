@@ -9,6 +9,7 @@ import UIKit
 import SnapKit
 
 final class FeatureSectionView: UIView {
+    
     private lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
@@ -24,6 +25,8 @@ final class FeatureSectionView: UIView {
         
         return collectionView
     }()
+    
+    private let separaterView = SeparatorView(frame: .zero)
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -65,13 +68,20 @@ extension FeatureSectionView: UICollectionViewDelegateFlowLayout {
 
 private extension FeatureSectionView {
     func setupViews() {
-        [collectionView].forEach { addSubview($0)}
+        [collectionView, separaterView].forEach { addSubview($0)}
         
         collectionView.snp.makeConstraints{
             $0.leading.equalToSuperview()
             $0.trailing.equalToSuperview()
             $0.top.equalToSuperview().inset(26.0)
             $0.height.equalTo(snp.width)
+            $0.bottom.equalToSuperview()
+        }
+        
+        separaterView.snp.makeConstraints{
+            $0.leading.equalToSuperview()
+            $0.trailing.equalToSuperview()
+            $0.top.equalTo(collectionView.snp.bottom).offset(16.0)
             $0.bottom.equalToSuperview()
         }
     }
