@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		699BAA6A2911354500873EDE /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BAA692911354500873EDE /* AppViewController.swift */; };
 		69C23788290FF2FA004A01C8 /* TodayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C23787290FF2FA004A01C8 /* TodayCollectionViewCell.swift */; };
 		69C2378C290FF799004A01C8 /* TodayCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C2378B290FF799004A01C8 /* TodayCollectionHeaderView.swift */; };
 		69EDBD7B290D5748006B9B47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EDBD7A290D5748006B9B47 /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		699BAA692911354500873EDE /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
 		69C23787290FF2FA004A01C8 /* TodayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionViewCell.swift; sourceTree = "<group>"; };
 		69C2378B290FF799004A01C8 /* TodayCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionHeaderView.swift; sourceTree = "<group>"; };
 		69EDBD77290D5748006B9B47 /* AppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		699BAA682911353300873EDE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				699BAA692911354500873EDE /* AppViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		69EDBD6E290D5748006B9B47 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +87,7 @@
 		69EDBD97290D5F2E006B9B47 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				699BAA682911353300873EDE /* App */,
 				69EDBD98290D5F44006B9B47 /* Today */,
 				69EDBD94290D58A2006B9B47 /* TabBarViewController.swift */,
 			);
@@ -175,6 +186,7 @@
 				69EDBD95290D58A2006B9B47 /* TabBarViewController.swift in Sources */,
 				69EDBD7B290D5748006B9B47 /* AppDelegate.swift in Sources */,
 				69C2378C290FF799004A01C8 /* TodayCollectionHeaderView.swift in Sources */,
+				699BAA6A2911354500873EDE /* AppViewController.swift in Sources */,
 				69EDBD7D290D5748006B9B47 /* SceneDelegate.swift in Sources */,
 				69C23788290FF2FA004A01C8 /* TodayCollectionViewCell.swift in Sources */,
 			);
