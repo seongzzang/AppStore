@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		698EC6EC2912AC3200E75B44 /* RankingFeatureSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698EC6EB2912AC3200E75B44 /* RankingFeatureSectionView.swift */; };
+		698EC6EE2912B3FE00E75B44 /* RankingFeatureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698EC6ED2912B3FE00E75B44 /* RankingFeatureCollectionViewCell.swift */; };
 		699BAA6A2911354500873EDE /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BAA692911354500873EDE /* AppViewController.swift */; };
 		69BE402429113EA400268245 /* FeatureSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BE402329113EA400268245 /* FeatureSectionView.swift */; };
 		69BE4026291142E700268245 /* FeatureSectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BE4025291142E700268245 /* FeatureSectionCollectionViewCell.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		698EC6EB2912AC3200E75B44 /* RankingFeatureSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureSectionView.swift; sourceTree = "<group>"; };
+		698EC6ED2912B3FE00E75B44 /* RankingFeatureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureCollectionViewCell.swift; sourceTree = "<group>"; };
 		699BAA692911354500873EDE /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
 		69BE402329113EA400268245 /* FeatureSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureSectionView.swift; sourceTree = "<group>"; };
 		69BE4025291142E700268245 /* FeatureSectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureSectionCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				69BE4025291142E700268245 /* FeatureSectionCollectionViewCell.swift */,
 				69BE40272911472000268245 /* SeparatorView.swift */,
 				698EC6EB2912AC3200E75B44 /* RankingFeatureSectionView.swift */,
+				698EC6ED2912B3FE00E75B44 /* RankingFeatureCollectionViewCell.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				69EDBD7D290D5748006B9B47 /* SceneDelegate.swift in Sources */,
 				69C23788290FF2FA004A01C8 /* TodayCollectionViewCell.swift in Sources */,
 				69BE402429113EA400268245 /* FeatureSectionView.swift in Sources */,
+				698EC6EE2912B3FE00E75B44 /* RankingFeatureCollectionViewCell.swift in Sources */,
 				698EC6EC2912AC3200E75B44 /* RankingFeatureSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

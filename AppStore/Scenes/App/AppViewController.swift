@@ -23,7 +23,6 @@ final class AppViewController : UIViewController {
         let rankingFeatureSectionView = RankingFeatureSectionView(frame: .zero)
         let exchangeCodeButtonView = UIView()
         
-        rankingFeatureSectionView.backgroundColor = .blue
         exchangeCodeButtonView.backgroundColor = .yellow
         
         [fetchSectionView,rankingFeatureSectionView,exchangeCodeButtonView].forEach {
