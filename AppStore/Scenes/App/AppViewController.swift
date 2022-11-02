@@ -21,9 +21,7 @@ final class AppViewController : UIViewController {
         
         let fetchSectionView = FeatureSectionView(frame: .zero)
         let rankingFeatureSectionView = RankingFeatureSectionView(frame: .zero)
-        let exchangeCodeButtonView = UIView()
-        
-        exchangeCodeButtonView.backgroundColor = .yellow
+        let exchangeCodeButtonView = ExchangeCodeButtonView(frame: .zero)
         
         [fetchSectionView,rankingFeatureSectionView,exchangeCodeButtonView].forEach {
             stackView.addArrangedSubview($0)
