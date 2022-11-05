@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6953FAB02916A17800AAD52D /* Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953FAAF2916A17800AAD52D /* Today.swift */; };
+		6953FAB22916A20500AAD52D /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953FAB12916A20500AAD52D /* Feature.swift */; };
+		6953FAB42916A24A00AAD52D /* RankingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953FAB32916A24A00AAD52D /* RankingFeature.swift */; };
 		698EC6EC2912AC3200E75B44 /* RankingFeatureSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698EC6EB2912AC3200E75B44 /* RankingFeatureSectionView.swift */; };
 		698EC6EE2912B3FE00E75B44 /* RankingFeatureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698EC6ED2912B3FE00E75B44 /* RankingFeatureCollectionViewCell.swift */; };
 		698EC6F22912BB3F00E75B44 /* ExchangeCodeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698EC6F12912BB3F00E75B44 /* ExchangeCodeButtonView.swift */; };
@@ -28,6 +31,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6953FAAB2916A08E00AAD52D /* Today.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Today.plist; sourceTree = "<group>"; };
+		6953FAAC2916A08E00AAD52D /* Feature.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Feature.plist; sourceTree = "<group>"; };
+		6953FAAD2916A08F00AAD52D /* RankingFeature.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RankingFeature.plist; sourceTree = "<group>"; };
+		6953FAAF2916A17800AAD52D /* Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today.swift; sourceTree = "<group>"; };
+		6953FAB12916A20500AAD52D /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		6953FAB32916A24A00AAD52D /* RankingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeature.swift; sourceTree = "<group>"; };
 		698EC6EB2912AC3200E75B44 /* RankingFeatureSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureSectionView.swift; sourceTree = "<group>"; };
 		698EC6ED2912B3FE00E75B44 /* RankingFeatureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureCollectionViewCell.swift; sourceTree = "<group>"; };
 		698EC6F12912BB3F00E75B44 /* ExchangeCodeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeCodeButtonView.swift; sourceTree = "<group>"; };
@@ -61,6 +70,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6953FAAE2916A14300AAD52D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6953FAAC2916A08E00AAD52D /* Feature.plist */,
+				6953FAAD2916A08F00AAD52D /* RankingFeature.plist */,
+				6953FAAB2916A08E00AAD52D /* Today.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		699BAA682911353300873EDE /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +118,10 @@
 				69EDBD83290D574C006B9B47 /* Assets.xcassets */,
 				69EDBD85290D574C006B9B47 /* LaunchScreen.storyboard */,
 				69EDBD88290D574C006B9B47 /* Info.plist */,
+				6953FAAF2916A17800AAD52D /* Today.swift */,
+				6953FAB12916A20500AAD52D /* Feature.swift */,
+				6953FAB32916A24A00AAD52D /* RankingFeature.swift */,
+				6953FAAE2916A14300AAD52D /* Data */,
 				69EDBD97290D5F2E006B9B47 /* Scenes */,
 			);
 			path = AppStore;
@@ -204,8 +227,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				69EDBD9A290D5F6B006B9B47 /* TodayViewController.swift in Sources */,
+				6953FAB02916A17800AAD52D /* Today.swift in Sources */,
 				69EDBD95290D58A2006B9B47 /* TabBarViewController.swift in Sources */,
 				698EC6F22912BB3F00E75B44 /* ExchangeCodeButtonView.swift in Sources */,
+				6953FAB42916A24A00AAD52D /* RankingFeature.swift in Sources */,
+				6953FAB22916A20500AAD52D /* Feature.swift in Sources */,
 				69BE40282911472000268245 /* SeparatorView.swift in Sources */,
 				69EDBD7B290D5748006B9B47 /* AppDelegate.swift in Sources */,
 				69C2378C290FF799004A01C8 /* TodayCollectionHeaderView.swift in Sources */,
