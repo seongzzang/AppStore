@@ -85,14 +85,17 @@ extension TodayViewController: UICollectionViewDelegateFlowLayout{
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let vc = AppDetailViewController()
+        let today = todayList[indexPath.item]
+        let vc = AppDetailViewController(today: today)
         present(vc, animated: true, completion: nil)
     }
 }
 
 private extension TodayViewController {
     func fetchData() {
-        guard let url = Bundle.main.url(forResource: "Today", withExtension: "plist") else { return }
+        guard let url = Bundle.main.url(forResource: "Today", withExtension: "plist") else {
+            return print("no data here")
+        }
         
         do {
             let data = try Data(contentsOf: url)

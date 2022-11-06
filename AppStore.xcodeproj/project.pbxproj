@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		694C5DA22917F6EA00F8F0C0 /* RankingFeature.plist in Resources */ = {isa = PBXBuildFile; fileRef = 694C5D9F2917F6EA00F8F0C0 /* RankingFeature.plist */; };
+		694C5DA32917F6EA00F8F0C0 /* Feature.plist in Resources */ = {isa = PBXBuildFile; fileRef = 694C5DA02917F6EA00F8F0C0 /* Feature.plist */; };
+		694C5DA42917F6EA00F8F0C0 /* Today.plist in Resources */ = {isa = PBXBuildFile; fileRef = 694C5DA12917F6EA00F8F0C0 /* Today.plist */; };
 		6953FAB02916A17800AAD52D /* Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953FAAF2916A17800AAD52D /* Today.swift */; };
 		6953FAB22916A20500AAD52D /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953FAB12916A20500AAD52D /* Feature.swift */; };
 		6953FAB42916A24A00AAD52D /* RankingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953FAB32916A24A00AAD52D /* RankingFeature.swift */; };
@@ -31,9 +34,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6953FAAB2916A08E00AAD52D /* Today.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Today.plist; sourceTree = "<group>"; };
-		6953FAAC2916A08E00AAD52D /* Feature.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Feature.plist; sourceTree = "<group>"; };
-		6953FAAD2916A08F00AAD52D /* RankingFeature.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RankingFeature.plist; sourceTree = "<group>"; };
+		694C5D9F2917F6EA00F8F0C0 /* RankingFeature.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = RankingFeature.plist; path = "../../../../../../Downloads/part4.-upper-intermediate--전체-/Ch2_AppStore/AppStore_plist/RankingFeature.plist"; sourceTree = "<group>"; };
+		694C5DA02917F6EA00F8F0C0 /* Feature.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Feature.plist; path = "../../../../../../Downloads/part4.-upper-intermediate--전체-/Ch2_AppStore/AppStore_plist/Feature.plist"; sourceTree = "<group>"; };
+		694C5DA12917F6EA00F8F0C0 /* Today.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Today.plist; path = "../../../../../../Downloads/part4.-upper-intermediate--전체-/Ch2_AppStore/AppStore_plist/Today.plist"; sourceTree = "<group>"; };
 		6953FAAF2916A17800AAD52D /* Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today.swift; sourceTree = "<group>"; };
 		6953FAB12916A20500AAD52D /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 		6953FAB32916A24A00AAD52D /* RankingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeature.swift; sourceTree = "<group>"; };
@@ -73,9 +76,9 @@
 		6953FAAE2916A14300AAD52D /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				6953FAAC2916A08E00AAD52D /* Feature.plist */,
-				6953FAAD2916A08F00AAD52D /* RankingFeature.plist */,
-				6953FAAB2916A08E00AAD52D /* Today.plist */,
+				694C5DA02917F6EA00F8F0C0 /* Feature.plist */,
+				694C5D9F2917F6EA00F8F0C0 /* RankingFeature.plist */,
+				694C5DA12917F6EA00F8F0C0 /* Today.plist */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -214,8 +217,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				694C5DA22917F6EA00F8F0C0 /* RankingFeature.plist in Resources */,
+				694C5DA42917F6EA00F8F0C0 /* Today.plist in Resources */,
 				69EDBD87290D574C006B9B47 /* LaunchScreen.storyboard in Resources */,
 				69EDBD84290D574C006B9B47 /* Assets.xcassets in Resources */,
+				694C5DA32917F6EA00F8F0C0 /* Feature.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
