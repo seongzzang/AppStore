@@ -92,7 +92,8 @@ private extension FeatureSectionView {
     }
     
     func fetchData(){
-        guard let url = Bundle.main.url(forResource: "Feature", withExtension: "plist") else { return print("no data here")}
+        guard let url = Bundle.main.url(forResource: "Feature", withExtension: "plist") else {
+            return print("Feature data no here")}
         
         do {
             let data = try Data(contentsOf: url)

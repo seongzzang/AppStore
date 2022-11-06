@@ -94,7 +94,7 @@ extension TodayViewController: UICollectionViewDelegateFlowLayout{
 private extension TodayViewController {
     func fetchData() {
         guard let url = Bundle.main.url(forResource: "Today", withExtension: "plist") else {
-            return print("no data here")
+            return print("Today data no here")
         }
         
         do {
