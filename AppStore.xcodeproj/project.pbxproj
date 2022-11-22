@@ -31,6 +31,7 @@
 		69EDBD93290D5795006B9B47 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 69EDBD92290D5795006B9B47 /* Kingfisher */; };
 		69EDBD95290D58A2006B9B47 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EDBD94290D58A2006B9B47 /* TabBarViewController.swift */; };
 		69EDBD9A290D5F6B006B9B47 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EDBD99290D5F6B006B9B47 /* TodayViewController.swift */; };
+		69F80657292CF55B0039C8B7 /* RankingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F80656292CF55B0039C8B7 /* RankingDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		69EDBD88290D574C006B9B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69EDBD94290D58A2006B9B47 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		69EDBD99290D5F6B006B9B47 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		69F80656292CF55B0039C8B7 /* RankingDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				698EC6EB2912AC3200E75B44 /* RankingFeatureSectionView.swift */,
 				698EC6ED2912B3FE00E75B44 /* RankingFeatureCollectionViewCell.swift */,
 				698EC6F12912BB3F00E75B44 /* ExchangeCodeButtonView.swift */,
+				69F80656292CF55B0039C8B7 /* RankingDetailViewController.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F80657292CF55B0039C8B7 /* RankingDetailViewController.swift in Sources */,
 				69EDBD9A290D5F6B006B9B47 /* TodayViewController.swift in Sources */,
 				6953FAB02916A17800AAD52D /* Today.swift in Sources */,
 				69EDBD95290D58A2006B9B47 /* TabBarViewController.swift in Sources */,

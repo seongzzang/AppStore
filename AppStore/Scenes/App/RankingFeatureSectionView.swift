@@ -25,6 +25,7 @@ class RankingFeatureSectionView : UIView {
         button.setTitle("모두 보기", for: .normal)
         button.setTitleColor(.systemBlue, for: .normal)
         button.titleLabel?.font = .systemFont(ofSize: 14.0, weight: .semibold)
+        button.addTarget(self, action: #selector(didTapAllAppButton), for: .touchUpInside)
         
         return button
     }()
@@ -84,6 +85,7 @@ extension RankingFeatureSectionView: UICollectionViewDataSource {
 }
 
 private extension RankingFeatureSectionView {
+    
     func setupViews(){
         [titleLabel, showAllAppButton, collectionView, seperatorView].forEach{addSubview($0)}
         
@@ -125,5 +127,11 @@ private extension RankingFeatureSectionView {
         } catch {
             print("rankingFeature data can't connect")
         }
+    }
+    
+    @objc func didTapAllAppButton() {
+        let vc = RankingDetailViewController()
+        //pushViewController(vc, animated: true)
+        print("button click")
     }
 }
