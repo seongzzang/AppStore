@@ -16,6 +16,7 @@ final class ExchangeCodeButtonView: UIView {
         button.setTitle("코드 교환", for: .normal)
         button.titleLabel?.font = .systemFont(ofSize: 15.0,weight: .semibold)
         button.setTitleColor(.systemBlue, for: .normal)
+        button.addTarget(self, action: #selector(<#T##@objc method#>), for: .touchUpInside)
         
         button.backgroundColor = .tertiarySystemGroupedBackground
         button.layer.cornerRadius = 7.0

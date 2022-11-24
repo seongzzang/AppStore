@@ -131,7 +131,7 @@ private extension RankingFeatureSectionView {
     
     @objc func didTapAllAppButton() {
         let vc = RankingDetailViewController()
-        //pushViewController(vc, animated: true)
+        self.present(self, animated: true, completion: nil)
         print("button click")
     }
 }
