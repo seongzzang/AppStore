@@ -10,6 +10,8 @@ import SnapKit
 
 class RankingDetailViewController : UIViewController {
     
+    private lazy var 
+    
     private lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal

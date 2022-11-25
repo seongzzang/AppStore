@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		694A44202931010C00EE00C7 /* RankingDetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694A441F2931010C00EE00C7 /* RankingDetailViewCell.swift */; };
 		694C5DA22917F6EA00F8F0C0 /* RankingFeature.plist in Resources */ = {isa = PBXBuildFile; fileRef = 694C5D9F2917F6EA00F8F0C0 /* RankingFeature.plist */; };
 		694C5DA32917F6EA00F8F0C0 /* Feature.plist in Resources */ = {isa = PBXBuildFile; fileRef = 694C5DA02917F6EA00F8F0C0 /* Feature.plist */; };
 		694C5DA42917F6EA00F8F0C0 /* Today.plist in Resources */ = {isa = PBXBuildFile; fileRef = 694C5DA12917F6EA00F8F0C0 /* Today.plist */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		694A441F2931010C00EE00C7 /* RankingDetailViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingDetailViewCell.swift; sourceTree = "<group>"; };
 		694C5D9F2917F6EA00F8F0C0 /* RankingFeature.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = RankingFeature.plist; path = "../../../../../../Downloads/part4.-upper-intermediate--전체-/Ch2_AppStore/AppStore_plist/RankingFeature.plist"; sourceTree = "<group>"; };
 		694C5DA02917F6EA00F8F0C0 /* Feature.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Feature.plist; path = "../../../../../../Downloads/part4.-upper-intermediate--전체-/Ch2_AppStore/AppStore_plist/Feature.plist"; sourceTree = "<group>"; };
 		694C5DA12917F6EA00F8F0C0 /* Today.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Today.plist; path = "../../../../../../Downloads/part4.-upper-intermediate--전체-/Ch2_AppStore/AppStore_plist/Today.plist"; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				698EC6ED2912B3FE00E75B44 /* RankingFeatureCollectionViewCell.swift */,
 				698EC6F12912BB3F00E75B44 /* ExchangeCodeButtonView.swift */,
 				69F80656292CF55B0039C8B7 /* RankingDetailViewController.swift */,
+				694A441F2931010C00EE00C7 /* RankingDetailViewCell.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				6953FAB02916A17800AAD52D /* Today.swift in Sources */,
 				69EDBD95290D58A2006B9B47 /* TabBarViewController.swift in Sources */,
 				698EC6F22912BB3F00E75B44 /* ExchangeCodeButtonView.swift in Sources */,
+				694A44202931010C00EE00C7 /* RankingDetailViewCell.swift in Sources */,
 				6953FAB42916A24A00AAD52D /* RankingFeature.swift in Sources */,
 				6953FAB22916A20500AAD52D /* Feature.swift in Sources */,
 				69BE40282911472000268245 /* SeparatorView.swift in Sources */,
