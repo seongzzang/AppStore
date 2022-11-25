@@ -51,6 +51,10 @@ final class RankingDetailViewCell: UICollectionViewCell {
         
         return label
     }()
+    
+    func setup(){
+        setupLayout()
+    }
 
 }
 
@@ -63,13 +67,30 @@ private extension RankingDetailViewCell {
         numberLabel.snp.makeConstraints {
             $0.leading.equalToSuperview().inset(insetnum)
             $0.top.equalToSuperview().inset(insetnum)
+            $0.centerX.equalTo(imageView.center)
         }
         
         imageView.snp.makeConstraints {
             $0.leading.equalTo(numberLabel).offset(10.0)
             $0.width.equalTo(insetnum)
-            $0.centerX.equalTo(numberLabel.center)
             $0.top.equalToSuperview().inset(4.0)
         }
+        
+        nameLabel.snp.makeConstraints {
+            $0.leading.equalTo(imageView).offset(5.0)
+            $0.top.equalTo(imageView)
+        }
+        
+        typeLabel.snp.makeConstraints {
+            $0.leading.equalTo(nameLabel)
+            $0.top.equalTo(nameLabel).offset(5.0)
+        }
+        
+        starLabel.snp.makeConstraints {
+            $0.leading.equalTo(typeLabel)
+            $0.top.equalTo(typeLabel).offset(5.0)
+            $0.bottom.equalTo(imageView)
+        }
+        
     }
 }
