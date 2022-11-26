@@ -106,9 +106,9 @@
 				69BE402329113EA400268245 /* FeatureSectionView.swift */,
 				69BE4025291142E700268245 /* FeatureSectionCollectionViewCell.swift */,
 				69BE40272911472000268245 /* SeparatorView.swift */,
-				698EC6F12912BB3F00E75B44 /* ExchangeCodeButtonView.swift */,
 				698EC6EB2912AC3200E75B44 /* RankingFeatureSectionView.swift */,
 				698EC6ED2912B3FE00E75B44 /* RankingFeatureCollectionViewCell.swift */,
+				698EC6F12912BB3F00E75B44 /* ExchangeCodeButtonView.swift */,
 				6992BC902932595800A9611C /* Ranking */,
 			);
 			path = App;
