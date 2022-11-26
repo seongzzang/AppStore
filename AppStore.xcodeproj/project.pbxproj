@@ -17,6 +17,7 @@
 		698EC6EC2912AC3200E75B44 /* RankingFeatureSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698EC6EB2912AC3200E75B44 /* RankingFeatureSectionView.swift */; };
 		698EC6EE2912B3FE00E75B44 /* RankingFeatureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698EC6ED2912B3FE00E75B44 /* RankingFeatureCollectionViewCell.swift */; };
 		698EC6F22912BB3F00E75B44 /* ExchangeCodeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698EC6F12912BB3F00E75B44 /* ExchangeCodeButtonView.swift */; };
+		6992BC922932599B00A9611C /* RankingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6992BC912932599B00A9611C /* RankingDetailView.swift */; };
 		699BAA6A2911354500873EDE /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BAA692911354500873EDE /* AppViewController.swift */; };
 		69BC45732913EDE800DE6388 /* AppDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BC45722913EDE800DE6388 /* AppDetailViewController.swift */; };
 		69BE402429113EA400268245 /* FeatureSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BE402329113EA400268245 /* FeatureSectionView.swift */; };
@@ -46,6 +47,7 @@
 		698EC6EB2912AC3200E75B44 /* RankingFeatureSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureSectionView.swift; sourceTree = "<group>"; };
 		698EC6ED2912B3FE00E75B44 /* RankingFeatureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureCollectionViewCell.swift; sourceTree = "<group>"; };
 		698EC6F12912BB3F00E75B44 /* ExchangeCodeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeCodeButtonView.swift; sourceTree = "<group>"; };
+		6992BC912932599B00A9611C /* RankingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingDetailView.swift; sourceTree = "<group>"; };
 		699BAA692911354500873EDE /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
 		69BC45722913EDE800DE6388 /* AppDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailViewController.swift; sourceTree = "<group>"; };
 		69BE402329113EA400268245 /* FeatureSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureSectionView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,16 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		6992BC902932595800A9611C /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				69F80656292CF55B0039C8B7 /* RankingDetailViewController.swift */,
+				6992BC912932599B00A9611C /* RankingDetailView.swift */,
+				694A441F2931010C00EE00C7 /* RankingDetailViewCell.swift */,
+			);
+			path = Ranking;
+			sourceTree = "<group>";
+		};
 		699BAA682911353300873EDE /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,11 +106,10 @@
 				69BE402329113EA400268245 /* FeatureSectionView.swift */,
 				69BE4025291142E700268245 /* FeatureSectionCollectionViewCell.swift */,
 				69BE40272911472000268245 /* SeparatorView.swift */,
+				698EC6F12912BB3F00E75B44 /* ExchangeCodeButtonView.swift */,
 				698EC6EB2912AC3200E75B44 /* RankingFeatureSectionView.swift */,
 				698EC6ED2912B3FE00E75B44 /* RankingFeatureCollectionViewCell.swift */,
-				698EC6F12912BB3F00E75B44 /* ExchangeCodeButtonView.swift */,
-				69F80656292CF55B0039C8B7 /* RankingDetailViewController.swift */,
-				694A441F2931010C00EE00C7 /* RankingDetailViewCell.swift */,
+				6992BC902932595800A9611C /* Ranking */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -256,6 +267,7 @@
 				69BE402429113EA400268245 /* FeatureSectionView.swift in Sources */,
 				69BC45732913EDE800DE6388 /* AppDetailViewController.swift in Sources */,
 				698EC6EE2912B3FE00E75B44 /* RankingFeatureCollectionViewCell.swift in Sources */,
+				6992BC922932599B00A9611C /* RankingDetailView.swift in Sources */,
 				698EC6EC2912AC3200E75B44 /* RankingFeatureSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

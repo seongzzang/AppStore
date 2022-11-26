@@ -54,6 +54,11 @@ final class RankingDetailViewCell: UICollectionViewCell {
     
     func setup(){
         setupLayout()
+        
+        numberLabel.text = "1"
+        nameLabel.text = "고양이 정원"
+        typeLabel.text = "힐링물"
+        starLabel.text = "3.3"
     }
 
 }
