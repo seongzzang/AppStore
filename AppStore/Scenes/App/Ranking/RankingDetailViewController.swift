@@ -27,7 +27,7 @@ class RankingDetailViewController : UIViewController {
         collectionView.backgroundColor = .systemBackground
         collectionView.showsHorizontalScrollIndicator = false
         
-        collectionView.register(RankingDetailViewCell.self, forCellWithReuseIdentifier: "RankingDetailViewCell")
+        collectionView.register(RankingFeatureCollectionViewCell.self, forCellWithReuseIdentifier: "RankingFeatureCollectionViewCell")
         
         return collectionView
     }()
@@ -44,7 +44,7 @@ extension RankingDetailViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "RakingDetailViewCell", for: indexPath) as? RankingDetailViewCell else {return UICollectionViewCell()}
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "RakingFeatureCollectionViewCell", for: indexPath) as? RankingFeatureCollectionViewCell else {return UICollectionViewCell()}
       
         return cell
     }
@@ -62,7 +62,7 @@ private extension RankingDetailViewController {
         navigationController?.navigationBar.prefersLargeTitles = true
         
         let tabBarItem = UIBarButtonItem(image: UIImage(systemName: "arrow_left"),
-                                         style: UIBarButtonItem.plain,
+                                         style: .plain,
                                          target: self,
                                          action: #selector(didTapBackButton)
 
