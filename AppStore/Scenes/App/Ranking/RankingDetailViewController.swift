@@ -10,12 +10,6 @@ import SnapKit
 
 class RankingDetailViewController : UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .systemBackground
-        
-    }
-    
     private lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
@@ -31,6 +25,18 @@ class RankingDetailViewController : UIViewController {
         
         return collectionView
     }()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .systemBackground
+        setupNavigationController()
+        
+        view.addSubview(collectionView)
+        collectionView.snp.makeConstraints{
+            $0.edges.equalToSuperview()
+        }
+        
+    }
     
 }
 
@@ -64,7 +70,7 @@ private extension RankingDetailViewController {
         let tabBarItem = UIBarButtonItem(image: UIImage(systemName: "arrow_left"),
                                          style: .plain,
                                          target: self,
-                                         action: #selector(didTapBackButton)
+                                         action: #selector(didTapBackButton))
 
         navigationItem.leftBarButtonItem = tabBarItem
     }

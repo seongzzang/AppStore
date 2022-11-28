@@ -20,7 +20,7 @@ final class AppViewController : UIViewController {
         stackView.spacing = 0.0
         
         let fetchSectionView = FeatureSectionView(frame: .zero)
-        let rankingFeatureSectionView = RankingFeatureSectionView(frame: .zero)
+        let rankingFeatureSectionView = RankingFeatureSectionView()
         let exchangeCodeButtonView = ExchangeCodeButtonView(frame: .zero)
         
         [fetchSectionView,rankingFeatureSectionView,exchangeCodeButtonView].forEach {
