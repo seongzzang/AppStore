@@ -23,7 +23,7 @@ final class AppViewController : UIViewController {
         let rankingFeatureSectionView = RankingFeatureSectionView()
         let exchangeCodeButtonView = ExchangeCodeButtonView(frame: .zero)
         
-        [fetchSectionView,rankingFeatureSectionView,exchangeCodeButtonView].forEach {
+        [fetchSectionView, rankingFeatureSectionView, exchangeCodeButtonView].forEach {
             stackView.addArrangedSubview($0)
         }
         

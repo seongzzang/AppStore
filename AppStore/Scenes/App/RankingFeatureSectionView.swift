@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class RankingFeatureSectionView : UIViewController {
+class RankingFeatureSectionView : UIView {
     
     private var rankingFeatureList: [RankingFeature] = []
     
@@ -51,22 +51,16 @@ class RankingFeatureSectionView : UIViewController {
     
     private let seperatorView = SeparatorView(frame: .zero)
     
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
+    override init(frame: CGRect) {
+        super.init(frame: frame)
         setupViews()
         fetchData()
         collectionView.reloadData()
     }
-//    override init(frame: CGRect) {
-//        super.init(frame: frame)
-//
-//    }
-//
-//    required init?(coder: NSCoder) {
-//        fatalError("init(coder:) has not been implemented")
-//    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
 }
 
@@ -92,7 +86,7 @@ extension RankingFeatureSectionView: UICollectionViewDataSource {
 private extension RankingFeatureSectionView {
     
     func setupViews(){
-        [titleLabel, showAllAppButton, collectionView, seperatorView].forEach{view.addSubview($0)}
+        [titleLabel, showAllAppButton, collectionView, seperatorView].forEach{addSubview($0)}
         
         titleLabel.snp.makeConstraints{
             $0.leading.equalToSuperview().inset(16.0)
@@ -136,7 +130,7 @@ private extension RankingFeatureSectionView {
     
     @objc func didTapAllAppButton() {
         let vc = UINavigationController(rootViewController: RankingDetailViewController())
-        present(vc, animated: true, completion: nil)
+        //present(vc, animated: true, completion: nil)
         print("button click")
     }
 }
