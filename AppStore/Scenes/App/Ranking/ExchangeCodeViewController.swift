@@ -40,9 +40,31 @@ class ExchangeCodeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setup() \
         view.backgroundColor = .systemBackground
     }
     
     
+}
+
+private extension ExchangeCodeViewController {
+    func setup(){
+        [imageView, mainLabel, secondaryLabel].forEach{ view.addSubview($0)}
+        
+        imageView.snp.makeConstraints{
+            $0.centerY.equalToSuperview()
+            $0.top.equalToSuperview().inset(16.0)
+        }
+        
+        mainLabel.snp.makeConstraints{
+            $0.leading.equalToSuperview().inset(16.0)
+            $0.centerY.equalTo(imageView)
+            $0.top.equalTo(imageView.snp.bottom).offset(15.0)
+        }
+        
+        secondaryLabel.snp.makeConstraints{
+            $0.top.equalTo(mainLabel.snp.bottom).offset(16.0)
+            $0.centerY.equalTo(mainLabel)
+        }
+    }
 }
