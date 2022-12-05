@@ -40,7 +40,7 @@ class ExchangeCodeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setup() \
+        setup()
         view.backgroundColor = .systemBackground
     }
     
