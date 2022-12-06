@@ -7,14 +7,17 @@
 
 import UIKit
 import SnapKit
+import Kingfisher
 
 class ExchangeCodeViewController: UIViewController {
     
     private lazy var imageView: UIImageView = {
         let imageView = UIImageView()
-       // iamgeView.setImage(<#T##CIImage#>)
         imageView.contentMode = .scaleAspectFill
         
+        if let imageURL = URL(string: "https://naver..com") {
+            imageView.kf.setImage(with: imageURL)
+        }
         return imageView
     }()
     
